@@ -1,0 +1,79 @@
+.setting{
+    display: flex;
+}
+.settingContainer{
+    flex: 9;
+    padding: 20px;
+}
+.settingTitle{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    justify-content: space-between;
+}
+.updateTitle{
+    font-size: 28px;
+    color: coral;
+}
+.deleteTitle{
+    font-size: 13px;
+    color: red;
+    cursor: pointer;
+}
+.settingForm{
+    display: flex;
+    flex-direction: column;
+}
+.settingProfilePic{
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+.settingProfilePic > img{
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+.settingProfilePicIcon{
+    margin-left: 10px;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    background-color: coral;
+    cursor: pointer;
+}
+
+.settingForm > label{
+    font-weight: 500;
+}
+
+.settingForm > input{
+    color: #444;
+    margin: 15px 0;
+    height: 30px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid lightgray;
+}
+
+.settingProfilePicBtn{
+    background-color: teal;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    font-size: 15px;
+    width: 100px;
+    align-self: center;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all .5s ease-in-out;
+}
+.settingProfilePicBtn:hover{
+    background-color: rgb(8, 82, 82);
+}
